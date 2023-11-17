@@ -1,0 +1,41 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+  box-sizing: border-box;
+}
+.bg-container1 {
+  height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg-container2 {
+  height: 80%;
+  width: 80%;
+  border-radius: 10px;
+  background-color: #150b3e;
+  padding: 20px;
+}
+.user-name {
+  display: flex;
+  align-items: center;
+}
+.profile {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  color: #7c3aed;
+  background-color: #c7d2fe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.balance {
+  display: flex;
+  justify-content: space-between;
+}
+.your-balance {
+  color: #585076;
+}

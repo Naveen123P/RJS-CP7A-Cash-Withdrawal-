@@ -1,0 +1,14 @@
+/* Write your CSS here */
+.list-items {
+  width: 50%;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+.button {
+  height: 20px;
+  width: 100%;
+  border: 1px solid #ffffff;
+  background-color: #382f5a;
+  padding: 5px;
+  border-bottom: none;
+}
