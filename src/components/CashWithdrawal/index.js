@@ -26,6 +26,7 @@ class CashWithdrawal extends Component {
   state = {balance: 2000, denominationsList: initialDenominationsList}
 
   onReduce = id => {
+    const {balance} = this.state
     for (const each of initialDenominationsList) {
       if (each.id === id) {
         this.setState(prevState => ({
