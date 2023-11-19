@@ -1,8 +1,12 @@
 /* Write your CSS here */
+* {
+  color: #ffffff;
+}
 .list-items {
-  width: 50%;
+  width: 45%;
   margin-bottom: 5px;
   margin-right: 5px;
+  list-style-type: none;
 }
 .button {
   height: 20px;
