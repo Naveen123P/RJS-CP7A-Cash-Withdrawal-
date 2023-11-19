@@ -3,10 +3,10 @@ import './index.css'
 
 const DenominationItem = props => {
   const {eachItem, onReduce} = props
-  const {value} = eachItem
+  const {id, value} = eachItem
 
   const toReduseValue = () => {
-    onReduce(value)
+    onReduce(id)
   }
 
   return (
